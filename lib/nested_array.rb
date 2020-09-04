@@ -35,7 +35,8 @@ def sorted_matrix
     CONVENTIONAL_PRODUCE,
     ORGANIC_PRODUCE
     ]
-  sorted_array = unsorted_array.sort
+  sorted_array = []
+  sorted_array.push(unsorted_array[0].sort, unsorted_array[0].sort)
 end
 
 def matrix_lookup(matrix, row, column)
